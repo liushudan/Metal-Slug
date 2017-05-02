@@ -171,7 +171,6 @@ function init(main) {
             children.master._physics,
             children.master._velocity
         )
-        
     })
 
     // setInterval(function() {
@@ -183,7 +182,13 @@ function init(main) {
 
     // 后续操作
     listen()
+
+    // physics.Events.on(physics.engine, 'collisionActive', function(event) {
+        // console.log(event)
+    // })
 }
+
+
 
 function listen() {
     const masterBody = children.master._physics

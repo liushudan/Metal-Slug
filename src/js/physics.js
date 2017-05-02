@@ -3,7 +3,8 @@ const
     World = Matter.World,
     Bodies = Matter.Bodies,
     Body = Matter.Body,
-    Render = Matter.Render
+    Render = Matter.Render,
+    Events = Matter.Events
 
 const 
     engine = Engine.create()
@@ -107,5 +108,6 @@ export default {
     add,
     World,
     Bodies,
-    Body
+    Body,
+    Events
 }
